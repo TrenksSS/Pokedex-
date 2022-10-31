@@ -1,12 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'VT323', monospace;
+
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient( rgb(106, 211, 253), rgb(189, 189, 189));
+    background-image: url(assets/PKfundo.png);
     width: 100vw;
     height: 100vh;
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+.PK{
+    width: 100%;
+    max-width: 625px;
+}
+.PK_image {
+    position: absolute;
+    left: 0;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-380%, 130%);
+}
+.inf_pk{
+    position: absolute;
+    font-weight: 600;
+    top: 32%;
+    right: 16%;
+    font-size: clamp(8px,5vw,25px);
+    color: rgb(93, 91, 91);
+}
+.nome_pk{
+    text-transform: capitalize;
+    color: rgb(48, 48, 48);
+}
+.form{
+    position: absolute;
+    width: 25%;
+    top: 69.5%;
+    left: 60%;
+}
+.busca{
+    width: 100%;
+    padding: 5%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(8px,5vw,20px);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+}
+.bts{
+    position: absolute;
+    bottom: 10.7%;
+    left: 59%;
+    width: 40%;
+    transform: translate(-57,0);
+    display: flex;
+    gap: 15px;
+}
+.bt{
+    width: 38%;
+    padding: 5%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+.bt:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
 }
