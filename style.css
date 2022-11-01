@@ -24,11 +24,12 @@ main{
     max-width: 625px;
 }
 .PK_image {
+    width: 15%;
     position: absolute;
     left: 0;
-    bottom: 55%;
-    left: 50%;
-    transform: translate(-380%, 130%);
+    bottom: 45%;
+    left: 19%;
+    /* transform: translate(-320%, 80%); */
 }
 .inf_pk{
     position: absolute;
