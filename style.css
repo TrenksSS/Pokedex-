@@ -83,3 +83,23 @@ main{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
+.info2{
+    position: absolute;
+    top: 39%;
+    right: 18%;
+    font-size: clamp(8px,5vw,25px);
+    color: rgb(76, 76, 76);
+    font-weight: 600;
+    padding-left: 20px;
+}
+.tipo_pk{
+    text-transform: capitalize;
+    color: rgb(48, 48, 48);
+    padding-left: 20px;
+}
+.tipoIcon{
+    width: 3.5%;
+    position: absolute;
+    bottom: 56%;
+    left: 76%;
+}
