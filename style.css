@@ -103,3 +103,11 @@ main{
     bottom: 56%;
     left: 76%;
 }
+.cpk{
+    position: absolute;
+    width: 100%;
+    bottom: 7%;
+}
+#pkk{
+    width: 80px;
+}
