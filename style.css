@@ -95,7 +95,7 @@ main{
 .tipo_pk{
     text-transform: capitalize;
     color: rgb(48, 48, 48);
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .tipoIcon{
     width: 3.5%;
